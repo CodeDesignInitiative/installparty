@@ -13,7 +13,8 @@ To install all the basic and advanced tools for coding and designing, we will us
 - A software update popup window will appear. Click `Install` (or the equivalent in your language)
 - This will install `Command Line Tools` that are necessary to install `Homebrew`. Caution: This may take up to 1 hour, but you can continue working on your computer
 - Once the download is done, you can install `Homebrew` with the following command
-- Copy the text `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` to the command line and hit `Enter`
+- Copy the following text to the command line and hit `Enter`:  
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 
 - The installation script will ask for your admin password: This is the password you use to log into your computer. Attention: When you type your password, you will not see every character on the command line. This is for security reasons!
 - Once the installation is done, type `brew` and hit `Enter` and you can see an explanation of what `brew` can do
 - You are now ready to install programs!
